@@ -1,7 +1,8 @@
 # -*-coding:Latin-1 -*
 class Compteur:
 	"""Cette classe possède un attribut de classe qui s'incrémente à chaque
-	fois que l'on crée un objet de ce type"""
+	fois que l'on crée un objet de ce type"
+        C'est assez puissant si on y pense bien! """
 	objets_crees = 0
 	def __init__(self):
 		"""À chaque fois qu'on crée un objet on incrémente le compteur"""
